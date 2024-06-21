@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    background-image: url('/src/imagens/fundo.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.68); /* Cor de fundo com transparência */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    width: 120px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 18px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #e50914;
+}
+
+.signin-btn {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.signin-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.main {
+    margin-top: 80px;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.43); /* Cor de fundo com transparência */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
